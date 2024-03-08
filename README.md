@@ -6,8 +6,8 @@ Para isso, você precisa implementar um conjunto de classes que representem os f
 
 As funcionalidades básicas que devem ser implementadas incluem:
 
-- Deve possuir um nome e uma especialidade.
-* Deve ser capaz de agendar consultas para os pacientes.
++ Deve possuir um nome e uma especialidade.
++ Deve ser capaz de agendar consultas para os pacientes.
 + Deve ser capaz de realizar exames para os pacientes.
 + Além das características de um funcionário da clínica, um médico possui um número de CRM.
 + Deve ser capaz de prescrever medicamentos para os pacientes.
