@@ -30,6 +30,9 @@ class Medico(FuncionarioEspecializado):
         self.crm = crm
     
     def prescreverMedicamentos(self):
+        print("Médico da Consulta", self.nome)
+        print("Especialidade:", self.especialidade)
+        print("CRM:", self.crm)
         print("Remedios para o paciente x prescritos")
 
 class Enfermeiro(FuncionarioEspecializado):
@@ -38,7 +41,16 @@ class Enfermeiro(FuncionarioEspecializado):
         self.coren = coren
 
     def realizarExames(self):
+        print("Funcionário:", self.nome)
+        print("Cargo:", self.especialidade)
+        print("coren:", self.coren)
         print("Exame do paciente x realizado")
 
 atendente1 = Atendente("Carol", "Atendente")
 atendente1.agendarConsultas()
+
+medico1 = Medico("Jorge", "Cardiologista", "54556-2")
+medico1.prescreverMedicamentos()
+
+enfermeiro1 = Enfermeiro("Ana", "Enfermeira", "5558643")
+enfermeiro1.realizarExames()
